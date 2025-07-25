@@ -1,0 +1,45 @@
+@import "tailwindcss";
+.background{
+    background-image: url(image/pexels-photo-8370752\ 1.png);
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+.image{
+    @apply w-full h-[200px] bg-cover md:size-[200px]
+}
+.post-heading{
+    @apply text-[#333333] font-semibold text-xl mb-2 md:text-3xl dark:text-white
+}
+.main-div{
+    @apply flex flex-col border border-[#DDE2E5] p-0 md:flex-row md:p-5 md:gap-10 md:items-start
+}
+.date-and-author{
+    @apply flex gap-3 mt-4 text-sm justify-between border-t-1 border-gray-500 md:text-xl pt-1 md:pt-3 md:border-t-2 animate-bounce dark:text-white
+}
+.tag-desing{
+    @apply bg-[#5677AC26] p-1 font-semibold cursor-pointer hover:bg-gray-700 hover:text-white hover:transition-all dark:bg-blue-500 dark:text-white
+}
+.image-galary-p{
+    @apply text-[#121212] font-semibold text-xl md:text-2xl text-center mt-3 dark:text-white
+}
+.tag{
+    @apply  text-white p-1 cursor-pointer  dark:text-white hover:text-white hover:transition-all
+}
+.p-text{
+    @apply text-[#616161] text-[18px] dark:text-gray-300
+}
+.date{
+    @apply text-[#616161] dark:text-white
+}
+.a-tag{
+    @apply text-red-700 hover:text-blue-400 dark:text-blue-400 hover:text-red-400
+}
+.heading-of-news-main-div{
+    @apply text-2xl mb-10 text-[#333333] dark:text-white
+}
+.btn{
+    @apply bg-[#5677AC] py-[10px] px-[15px] text-white rounded-[10px] cursor-pointer md:py-[15px] md:px-[25px] dark:bg-blue-600
+}
+.moon{
+    @apply cursor-pointer fa-regular fa-moon text-[25px] md:text-[35px] dark:text-white dark:bg-white dark:stroke-white
+}
