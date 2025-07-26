@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @import "tailwindcss";
 .background{
     background-image: url(image/pexels-photo-8370752\ 1.png);
